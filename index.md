@@ -12,10 +12,10 @@ header:
 excerpt: "Cybersecurity | Web Developer | Digital Marketer"
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="/assets/images/PASSPORT.png" alt="Joel Habisayas Juma" style="width: 150px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 2rem;">
+  <img src="/assets/images/PASSPORT.png" alt="Joel Habisayas Juma" style="width: 130px; border-radius: 10px; box-shadow: 0 0 6px rgba(0,0,0,0.3);">
   <div>
     <p>Welcome to my digital portfolio! I’m <strong>Joel Habisayas Juma</strong>, an IT professional passionate about cybersecurity, web development, and digital transformation.</p>
-    <p>Explore my work, challenges, and professional journey below.</p>
+    <p>Explore my work, challenges, and professional journey.</p>
   </div>
 </div>
