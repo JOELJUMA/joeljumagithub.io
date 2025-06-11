@@ -2,17 +2,18 @@
 title: Joel Habisayas Juma
 email: joeljuma0020@gmail.com
 description: >-
-  Highly motivated and results-driven IT professional passionate about Cloud Security, Web and Mobile Development, and Digital Marketing. 
-  This site serves as my digital portfolio for showcasing projects, lab challenges, and my resume.
+  Highly motivated IT professional in Cloud Security, Web & Mobile Dev, and Digital Marketing.
 twitter_username: "JOELJUMA"
-github_username: JOELJUMA
+github_username: "JOELJUMA"
 minimal_mistakes_skin: default
 search: true
+baseurl: ""     # Leave blank for user/organization GitHub Pages (e.g. https://joeljuma.github.io)
+url: "https://joeljuma.github.io"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 5
 paginate_path: /page:num/
 timezone: Africa/Nairobi
@@ -29,10 +30,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Author details
 author:
-  name   : "Joel Habisayas Juma"
-  avatar : "/assets/images/bio-photo.jpg" # Replace this with your photo path
-  bio    : "IT professional skilled in Cloud Security, Web Development, and Digital Marketing. Passionate about technology and problem-solving."
+  name: "Joel Habisayas Juma"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "IT professional skilled in Cloud Security, Web Development, and Digital Marketing."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -47,6 +49,7 @@ author:
       icon: "fas fa-fw fa-phone"
       url: "tel:+254799304451"
 
+# Footer links
 footer:
   links:
     - label: "LinkedIn"
@@ -62,8 +65,8 @@ footer:
       icon: "fas fa-fw fa-phone"
       url: "tel:+254799304451"
 
+# Default layout based on content type
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -74,7 +77,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -82,6 +84,7 @@ defaults:
       layout: single
       author_profile: true
 
+# Archive settings
 category_archive:
   type: liquid
   path: /categories/
@@ -89,7 +92,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  # Add this to your _config.yml if missing
+# Navigation menu
 navigation:
   - title: "Home"
     url: /
@@ -100,26 +103,10 @@ navigation:
   - title: "Contact"
     url: /contact/
 
-    # Make sure to include:
-plugins:
-  - jekyll-include-cache
-
-include:
-  - _pages
-  - _includes/head-custom.html
-  - _includes/footer-custom.html
- # _config.yml
-minimal_mistakes_skin: default
-# Add this if not already present
+# Include custom assets
 sass:
   style: compressed
-
-# Include your custom stylesheet
-plugins:
-  - jekyll-include-cache
-
-# Custom styles
 include:
   - assets/css/custom.css
-
-
+  - _includes/head-custom.html
+  - _includes/footer-custom.html
