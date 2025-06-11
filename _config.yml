@@ -108,5 +108,18 @@ include:
   - _pages
   - _includes/head-custom.html
   - _includes/footer-custom.html
+ # _config.yml
+minimal_mistakes_skin: default
+# Add this if not already present
+sass:
+  style: compressed
+
+# Include your custom stylesheet
+plugins:
+  - jekyll-include-cache
+
+# Custom styles
+include:
+  - assets/css/custom.css
 
 
