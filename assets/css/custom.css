@@ -1,0 +1,27 @@
+.btn {
+  padding: 0.6rem 1.4rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn--primary {
+  background: #007acc;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: #005f9e;
+}
+
+.btn--inverse {
+  background: #fff;
+  color: #007acc;
+  border: 2px solid #007acc;
+}
+
+.btn--inverse:hover {
+  background: #f0f0f0;
+}
