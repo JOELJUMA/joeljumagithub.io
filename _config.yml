@@ -88,3 +88,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  # Add this to your _config.yml if missing
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Resume"
+    url: /resume/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
