@@ -100,3 +100,13 @@ navigation:
   - title: "Contact"
     url: /contact/
 
+    # Make sure to include:
+plugins:
+  - jekyll-include-cache
+
+include:
+  - _pages
+  - _includes/head-custom.html
+  - _includes/footer-custom.html
+
+
