@@ -12,19 +12,8 @@ header:
 excerpt: "Cybersecurity | Web Developer | Digital Marketer"
 ---
 
-<style>
-  .top-right-photo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 120px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  }
-</style>
-
 <div style="position: relative;">
-  <img src="/assets/images/PASSPORT.png" alt="Joel Habisayas Juma" class="top-right-photo">
+  <img src="{{ '/assets/images/PASSPORT.png' | relative_url }}" alt="Joel Habisayas Juma" style="position: absolute; top: 0; right: 0; width: 120px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
 </div>
 
 Welcome to my digital portfolio! I’m **Joel Habisayas Juma**, an IT professional passionate about cybersecurity, web development, and digital transformation.
