@@ -1,11 +1,11 @@
-    main:
+main:
   - title: "Home"
     url: /
-  - title: "Resume"
-    url: /resume/
+  - title: "About"
+    url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Lab Challenges"
-    url: /labs/
+  - title: "Resume"
+    url: /resume/
   - title: "Contact"
     url: /contact/
