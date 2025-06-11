@@ -4,7 +4,7 @@ title: "Joel Habisayas Juma"
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/hero.jpg  # Replace with your own photo path
+  overlay_image: /assets/images/PASSPORT.png  # Replace with your own photo path
   actions:
     - label: "View My Resume"
       url: "/resume/"
