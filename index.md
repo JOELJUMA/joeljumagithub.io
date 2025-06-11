@@ -36,7 +36,8 @@ excerpt: "Cybersecurity | Web Developer | Digital Marketer"
 </section>
 <section class="page__content text-center mt-4">
   <p>
-    <a href="{{ '/resume/' | relative_url }}" class="btn btn--primary btn--large">
+    <a href="{{ '/_pages
+/resume.md/' | relative_url }}" class="btn btn--primary btn--large">
       📄 View My Resume
     </a>
     <a href="{{ '/projects/' | relative_url }}" class="btn btn--primary btn--large">
