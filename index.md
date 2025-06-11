@@ -1,18 +1,33 @@
 ---
-layout: splash
-title: "Joel Habisayas Juma"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  overlay_image: /assets/images/hero.jpg  # Replace with your own photo path
-  actions:
-    - label: "View My Resume"
-      url: "/resume/"
-    - label: "View My Projects"
-      url: "/projects/"
-excerpt: "Cybersecurity | Web Developer | Digital Marketer"
+title: "Projects"
+permalink: /projects/
+layout: single
+classes: wide
 ---
 
-Welcome to my digital portfolio! I’m **Joel Habisayas Juma**, an IT professional passionate about cybersecurity, web development, and digital transformation.
+## 💻 Featured Projects
 
-Explore my work, challenges, and professional journey.
+### 🔒 Cyber Lab Dashboard
+A cloud-based dashboard to monitor and simulate cybersecurity lab challenges.
+
+- **Tech Stack:** React, Firebase, Bootstrap  
+- **Skills:** Cloud Integration, Real-time DB, Security Alerts  
+- **GitHub:** [Link](https://github.com/JOELJUMA/cyber-lab-dashboard)
+
+---
+
+### 🌐 Portfolio Website (This Site)
+Personal portfolio built using Jekyll + GitHub Pages (Minimal Mistakes).
+
+- **Features:** CV, Projects, Challenges, Contact Form  
+- **Tools:** Jekyll, Markdown, GitHub  
+- **GitHub:** [Link](https://github.com/JOELJUMA)
+
+---
+
+### 📱 Weather Forecast App
+Mobile app that displays real-time weather info using OpenWeather API.
+
+- **Built With:** React Native, Axios  
+- **Features:** Offline Caching, Location Detection  
+- **GitHub:** [Link](https://github.com/JOELJUMA/weather-app)
