@@ -34,12 +34,14 @@ excerpt: "Cybersecurity | Web Developer | Digital Marketer"
     <li>🤝 Collaborative and client-focused</li>
   </ul>
 </section>
-
-<section data-aos="fade-right" style="margin-top: 2rem;">
-  <h2>Quick Links</h2>
+<section class="page__content text-center mt-4">
   <p>
-    <a href="/resume/" class="btn btn--primary">📄 View My Resume</a>
-    <a href="/projects/" class="btn btn--primary">💼 View My Projects</a>
+    <a href="{{ '/resume/' | relative_url }}" class="btn btn--primary btn--large">
+      📄 View My Resume
+    </a>
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn--primary btn--large">
+      💼 View My Projects
+    </a>
   </p>
 </section>
 
